@@ -25,6 +25,7 @@ pip install -r requirements.txt
 | 1 — C'est quoi l'IA, vraiment ? | `jobmatch/skills/detector.py` | `python -m jobmatch.skills.detector` | `pytest tests/test_detector.py` |
 | 2 — Le cerveau des LLM | `jobmatch/nlp/tokenize_demo.py`, `jobmatch/nlp/attention.py` | `python -m jobmatch.nlp.tokenize_demo` · `python -m jobmatch.nlp.attention` | `pytest tests/test_attention.py` |
 | 3 — L'écosystème des outils IA | `jobmatch/ml/frameworks_tour.py` | `python -m jobmatch.ml.frameworks_tour` | `pytest tests/test_frameworks_tour.py` |
+| 4 — Data cleaning et règle d'or | `jobmatch/data/cleaning.py`, `jobmatch/privacy/anonymizer.py` | `python -m jobmatch.data.cleaning` · `python -m jobmatch.privacy.anonymizer` | `pytest tests/test_cleaning.py tests/test_anonymizer.py` |
 
 > **Note Python** : le Chapitre 3 utilise TensorFlow/Keras, qui nécessite Python 3.12 au plus tant que les wheels 3.13+/3.14 ne sont pas publiées.
 

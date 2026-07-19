@@ -8,3 +8,5 @@ transformers>=4.40   # seul le tokenizer est utilisé, PyTorch non requis
 # Chapitre 3 (nécessite Python <= 3.12 tant que TensorFlow n'a pas de wheels 3.13+)
 tensorflow-cpu>=2.16 ; python_version < "3.13"
 keras>=3.0
+# Chapitre 4
+pandas>=2.0
