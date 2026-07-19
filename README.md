@@ -28,6 +28,7 @@ pip install -r requirements.txt
 | 4 — Data cleaning et règle d'or | `jobmatch/data/cleaning.py`, `jobmatch/privacy/anonymizer.py` | `python -m jobmatch.data.cleaning` · `python -m jobmatch.privacy.anonymizer` | `pytest tests/test_cleaning.py tests/test_anonymizer.py` |
 | 5 — Entraîner et évaluer le scoring CV/offre | `jobmatch/ml/scoring.py` | `python -m jobmatch.ml.scoring` | `pytest tests/test_scoring.py` |
 | 6 — « L'affaire du CV fantôme » (audit de biais) | `jobmatch/fairness/audit.py` | `python -m jobmatch.fairness.audit` | `pytest tests/test_fairness.py` |
+| 7 — Versioning et model registry | `jobmatch/mlops/registry.py` | `python -m jobmatch.mlops.registry` | `pytest tests/test_registry.py` |
 
 > **Note Python** : le Chapitre 3 utilise TensorFlow/Keras, qui nécessite Python 3.12 au plus tant que les wheels 3.13+/3.14 ne sont pas publiées.
 

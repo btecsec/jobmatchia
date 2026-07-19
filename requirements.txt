@@ -10,3 +10,6 @@ tensorflow-cpu>=2.16 ; python_version < "3.13"
 keras>=3.0
 # Chapitre 4
 pandas>=2.0
+# Chapitre 7 (le registre minimal n'utilise que joblib, fourni par scikit-learn ;
+# mlflow sert aux exemples industriels du chapitre et au défi bonus)
+mlflow>=3.0
