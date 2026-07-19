@@ -1,0 +1,7 @@
+# Dépendances minimales de l'image Docker de l'API de scoring (Chapitre 9).
+# L'image n'embarque QUE ce dont le service a besoin — ni TensorFlow,
+# ni MLflow, ni outils de dev : surface d'attaque et taille réduites.
+fastapi>=0.115
+uvicorn>=0.30
+scikit-learn>=1.4
+numpy>=1.26
