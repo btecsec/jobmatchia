@@ -31,6 +31,7 @@ pip install -r requirements.txt
 | 7 — Versioning et model registry | `jobmatch/mlops/registry.py` | `python -m jobmatch.mlops.registry` | `pytest tests/test_registry.py` |
 | 8 — CI/CD et LLM-as-a-Judge | `jobmatch/mlops/gates.py`, `jobmatch/mlops/llm_judge.py` | `python -m jobmatch.mlops.gates` · `python -m jobmatch.mlops.llm_judge` | `pytest tests/test_gates_judge.py` |
 | 9 — API, Docker et dérive | `jobmatch/api/app.py`, `jobmatch/mlops/drift.py`, `Dockerfile` | `uvicorn jobmatch.api.app:app` · `python -m jobmatch.mlops.drift` | `pytest tests/test_api_drift.py` |
+| 10 — RAG : l'Agent Chasseur d'offres | `jobmatch/rag/hunter.py` | `python -m jobmatch.rag.hunter` | `pytest tests/test_rag.py` |
 
 > **Note Python** : le Chapitre 3 utilise TensorFlow/Keras, qui nécessite Python 3.12 au plus tant que les wheels 3.13+/3.14 ne sont pas publiées.
 
