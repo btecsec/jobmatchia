@@ -1,0 +1,22 @@
+# Livre : jamais sur GitHub (manuscrit, exports Word, ancienne édition)
+manuscrit/
+exports/
+*.docx
+_extraction_word.txt
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS
+Thumbs.db
+.DS_Store

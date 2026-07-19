@@ -1,0 +1,7 @@
+# Dépendances des labos — L'IA de Zéro à Production
+# Chapitre 1
+scikit-learn>=1.4
+pytest>=8.0
+# Chapitre 2
+numpy>=1.26
+transformers>=4.40   # seul le tokenizer est utilisé, PyTorch non requis
