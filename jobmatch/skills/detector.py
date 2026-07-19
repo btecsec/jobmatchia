@@ -7,7 +7,7 @@ Deux implémentations volontairement mises en concurrence :
 
 Règle d'or JobMatch AI : ce module ne traite QUE du texte déjà anonymisé.
 Aucun nom, âge, adresse ou coordonnée ne doit entrer ici (garanti par le
-module d'anonymisation construit au Chapitre 3).
+module d'anonymisation construit au Chapitre 4).
 """
 
 from dataclasses import dataclass
